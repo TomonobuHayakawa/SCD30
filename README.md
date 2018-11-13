@@ -1,19 +1,16 @@
-SparkFun SCD30 CO2 Sensor Library
+#SCD30 CO2 Sensor Library
 ===========================================================
+This driver is for SCD30 CO2 Sensor breakout boards which are connected through the Arduino I2C.
+Derived from the SparkFun SCD30 CO2 Sensor Board for the Arduino.
 
-![SparkFun SCD30 CO2 Sensor](https://cdn.sparkfun.com//assets/parts/1/2/9/8/4/SparkFun_Sensirion_SCD30.jpg)
+SparkFun driver repository: https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library
 
-[*SparkX CO₂ Humidity and Temperature Sensor - SCD30 (SPX-14751)*](https://www.sparkfun.com/products/14751)
+SCD30 CO2 Sensor: https://www.sensirion.com/environmental-sensors/carbon-dioxide-sensors-co2/
 
-The SCD30 from Sensirion is a high quality [NDIR](https://en.wikipedia.org/wiki/Nondispersive_infrared_sensor) based CO₂ sensor capable of detecting 400 to 10000ppm with an accuracy of ±(30ppm+3%). In order to improve accuracy the SCD30 has temperature and humidity sensing built-in, as well as commands to set the current altitude.
 
-We've written an Arduino library to make reading the CO₂, humidity, and temperature very easy. It can be downloaded through the Arduino Library manager: search for 'SparkFun SCD30'. We recommend using a [Qwiic Breadboard Cable](https://www.sparkfun.com/products/14425) to connect the SCD30 to a Qwiic compatible board. The Ye*LL*ow wire goes in the SC*L* pin. The SCD30 also supports a serial interface but we haven't worked with it.
+![Screenshot](image.JPG)
 
-The CO₂ sensor works very well and for additional accuracy the SCD30 accepts ambient pressure readings. We recommend using the SCD30 in conjunction with the [Qwiic Pressure Sensor - MS5637](https://www.sparkfun.com/products/14688) or the [Qwiic Environmental Sensor - BME680](https://www.sparkfun.com/products/14570) to obtain the current barometric pressure.
 
-Note: The SCD30 has an automatic self-calibration routine. Sensirion recommends 7 days of continuous readings with at least 1 hour a day of 'fresh air' for self-calibration to complete.
-
-Library written by Nathan Seidle ([SparkFun](http://www.sparkfun.com)).
 
 Repository Contents
 -------------------
